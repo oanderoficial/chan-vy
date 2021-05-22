@@ -25,7 +25,7 @@ Fácil e simples a utilização, onde basta escolher a categoria e o número da 
 # Instalação
 
 <ol>
-<li><code>git clone https://github.com/oandersonbsilva/chan-vy.git</code></li>
+<li><code>git clone https://github.com/bitcoinander/chan-vy.git</code></li>
 <li><code>cd chan-vy </code></li>
 <li><code>chmod a+x chan-vy.sh</code></li>
 <li><code> ./chan-vy.sh </code></li>
