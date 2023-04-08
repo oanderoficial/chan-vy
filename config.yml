@@ -1,0 +1,26 @@
+# Arquivo YAML Chan-vy
+# Versão do YAML: 1.2
+
+# Informações do projeto
+projeto:
+  nome: Chan-vy
+  descrição: Script que baixa o código-fonte de todas as ferramentas disponíveis no Kali Linux, direto dos seus repositórios oficiais e de repositórios confiáveis.
+  data_inicio: 09/02/2021
+  Update: Projeto ativo
+  Versão: 1.0 
+  Responsável: Anderson B silva 
+
+# Configurações do projeto
+config:
+  ambiente: producao
+  url: https://github.com/oanderoficial/chan-vy
+  shell: bin/bash
+  Linguagem: Shell-Script 
+
+# Dependências do projeto
+dependencias:
+  - Linux base 
+  - Curl
+  - Git 
+  - Zenity 
+
