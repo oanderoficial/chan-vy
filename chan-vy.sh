@@ -901,143 +901,43 @@ download_ferramenta "Reaver" "https://gitlab.com/kalilinux/packages/reaver/-/arc
 ;;
 
 /41|41) redfang
-mkdir redfang
-clear
-cd redfang/
-curl -O https://gitlab.com/kalilinux/packages/redfang/-/archive/kali/master/redfang-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+download_ferramenta "redfang" "https://gitlab.com/kalilinux/packages/redfang/-/archive/kali/master/redfang-kali-master.zip"
 ;;
 
 /42|42) RTLSDR Scanner
-mkdir RTLSDRScanner
-clear
-cd RTLSDRScanner/
-curl -O https://gitlab.com/kalilinux/packages/rtlsdr-scanner/-/archive/kali/master/rtlsdr-scanner-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+download_ferramenta "RTLSDR Scanner" "https://gitlab.com/kalilinux/packages/rtlsdr-scanner/-/archive/kali/master/rtlsdr-scanner-kali-master.zip" 
 ;;
 
 /43|43) Spooftooph
-mkdir Spooftooph
-clear
-cd Spooftooph/
-curl -O https://gitlab.com/kalilinux/packages/spooftooph/-/archive/kali/master/spooftooph-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+download_ferramenta "Spooftooph" "https://gitlab.com/kalilinux/packages/spooftooph/-/archive/kali/master/spooftooph-kali-master.zip"
 ;;
 
 /44|44) Tkiptun-ng 
-mkdir Tkiptun-ng 
-clear
-cd Tkiptun-ng/
-curl -O https://gitlab.com/kalilinux/packages/aircrack-ng/-/archive/kali/master/aircrack-ng-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+download_ferramenta "Tkiptun-ng" "https://gitlab.com/kalilinux/packages/aircrack-ng/-/archive/kali/master/aircrack-ng-kali-master.zip"
 ;;
 
-/45|45) Wesside-ng 
-mkdir Wesside-ng 
-clear
-cd Wesside-ng/
-curl -O https://gitlab.com/kalilinux/packages/aircrack-ng/-/archive/kali/master/aircrack-ng-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+/45|45) Wesside-ng
+download_ferramenta "Wesside-ng " "https://gitlab.com/kalilinux/packages/aircrack-ng/-/archive/kali/master/aircrack-ng-kali-master.zip"  
 ;;
 
 /46|46) Wifi Honey
-mkdir WifiHoney
-clear
-cd WifiHoney/
-curl -O https://gitlab.com/kalilinux/packages/wifi-honey/-/archive/kali/master/wifi-honey-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+download_ferramenta "Wifi Honey" "https://gitlab.com/kalilinux/packages/wifi-honey/-/archive/kali/master/wifi-honey-kali-master.zip" 
 ;;
 
 /47|47) wifiphisher
-mkdir wifiphisher
-clear
-cd wifiphisher/
-curl -O https://gitlab.com/kalilinux/packages/wifiphisher/-/archive/kali/master/wifiphisher-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+download_ferramenta "wifiphisher" "https://gitlab.com/kalilinux/packages/wifiphisher/-/archive/kali/master/wifiphisher-kali-master.zip"
 ;;
 
 /48|48) Wifitap
-mkdir Wifitap
-clear
-cd Wifitap/
-curl -O https://gitlab.com/kalilinux/packages/wifitap/-/archive/kali/master/wifitap-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+download_ferramenta "Wifitap" "https://gitlab.com/kalilinux/packages/wifitap/-/archive/kali/master/wifitap-kali-master.zip" 
 ;;
 
 /49|49) Wifite
-mkdir Wifite
-clear
-cd Wifite/
-curl -O https://gitlab.com/kalilinux/packages/wifite/-/archive/kali/master/wifite-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+download_ferramenta "Wifite" "https://gitlab.com/kalilinux/packages/wifite/-/archive/kali/master/wifite-kali-master.zip" 
 ;;
 
 /50|50) wpaclean
-mkdir wpaclean
-clear
-cd wpaclean/
-curl -O https://gitlab.com/kalilinux/packages/aircrack-ng/-/archive/kali/master/aircrack-ng-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|i|r|e|l|e|s|s| |A|t|t|a|c|k|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Wireless
+download_ferramenta "wpaclean" "https://gitlab.com/kalilinux/packages/aircrack-ng/-/archive/kali/master/aircrack-ng-kali-master.zip"
 ;;
 
 
