@@ -1017,143 +1017,43 @@ read -p  ">>>>>>>>>>>"  menu3
 case $menu3 in
 
 /1|1) apache-users
-mkdir apache-users
-clear
-cd apache-users/
-curl -O https://gitlab.com/kalilinux/packages/apache-users/-/archive/kali/master/apache-users-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "apache-users" "https://gitlab.com/kalilinux/packages/apache-users/-/archive/kali/master/apache-users-kali-master.zip"
 ;;
 
 /2|2) Arachni
-mkdir Arachni
-clear
-cd Arachni/
-curl -O https://gitlab.com/kalilinux/packages/arachni/-/archive/kali/master/arachni-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "Arachni" "https://gitlab.com/kalilinux/packages/arachni/-/archive/kali/master/arachni-kali-master.zip"
 ;;
 
 /3|3) BBQSQL
-clear
-mkdir BBQSQL
-cd BBQSQL/
-curl -O https://gitlab.com/kalilinux/packages/bbqsql/-/archive/kali/master/bbqsql-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "BBQSQL" "https://gitlab.com/kalilinux/packages/bbqsql/-/archive/kali/master/bbqsql-kali-master.zip"
 ;;
 
 /4|4) BlindElephant
-clear
-mkdir BlindElephant
-cd BlindElephant/
-curl -O https://gitlab.com/kalilinux/packages/blindelephant/-/archive/kali/master/blindelephant-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "BlindElephant" "https://gitlab.com/kalilinux/packages/blindelephant/-/archive/kali/master/blindelephant-kali-master.zip"
 ;;
 
 /5|5) Burp Suite
-mkdir BurpSuite
-clear
-cd BurpSuite/
-curl -O https://gitlab.com/kalilinux/packages/burpsuite/-/archive/kali/master/burpsuite-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "Burp Suite" "https://gitlab.com/kalilinux/packages/burpsuite/-/archive/kali/master/burpsuite-kali-master.zip"
 ;;
 
 /6|6) CutyCapt
-clear
-mkdir CutyCapt
-cd CutyCapt/
-curl -O https://gitlab.com/kalilinux/packages/cutycapt/-/archive/kali/master/cutycapt-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "CutyCapt" "https://gitlab.com/kalilinux/packages/cutycapt/-/archive/kali/master/cutycapt-kali-master.zip"
 ;;
 
 /7|7) DAVTest
-clear
-mkdir DAVTest
-cd DAVTest/
-curl -O https://gitlab.com/kalilinux/packages/davtest/-/archive/kali/master/davtest-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "DAVTest" "https://gitlab.com/kalilinux/packages/davtest/-/archive/kali/master/davtest-kali-master.zip"
 ;;
 
 /8|8) deblaze
-clear
-mkdir deblaze
-cd deblaze/
-curl -O https://gitlab.com/kalilinux/packages/deblaze/-/archive/kali/master/deblaze-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "deblaze" "https://gitlab.com/kalilinux/packages/deblaze/-/archive/kali/master/deblaze-kali-master.zip"
 ;;
 
 /9|9) DIRB
-clear
-mkdir DIRB
-cd DIRB/
-curl -O https://gitlab.com/kalilinux/packages/dirb/-/archive/kali/master/dirb-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "DIRB" "https://gitlab.com/kalilinux/packages/dirb/-/archive/kali/master/dirb-kali-master.zi"
 ;;
 
 /10|10) DirBuster
-clear
-mkdir DirBuster
-cd DirBuster/
-curl -O https://gitlab.com/kalilinux/packages/dirbuster/-/archive/kali/master/dirbuster-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "DirBuster" "https://gitlab.com/kalilinux/packages/dirbuster/-/archive/kali/master/dirbuster-kali-master.zip"
 ;;
 
 /11|11) fimap
