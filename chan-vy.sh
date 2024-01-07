@@ -1057,29 +1057,11 @@ download_ferramenta "DirBuster" "https://gitlab.com/kalilinux/packages/dirbuster
 ;;
 
 /11|11) fimap
-clear
-mkdir fimap
-cd fimap/
-curl -O https://gitlab.com/kalilinux/packages/fimap/-/archive/kali/master/fimap-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Informa
+download_ferramenta "fimap" "https://gitlab.com/kalilinux/packages/fimap/-/archive/kali/master/fimap-kali-master.zip"
 ;;
 
 /12|12) FunkLoad
-clear
-mkdir FunkLoad
-cd FunkLoad/
-curl -O https://gitlab.com/kalilinux/packages/funkload/-/archive/kali/master/funkload-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "FunkLoad" "https://gitlab.com/kalilinux/packages/funkload/-/archive/kali/master/funkload-kali-master.zip" 
 ;;
 
 /13|13) Gobuster
