@@ -1065,403 +1065,127 @@ download_ferramenta "FunkLoad" "https://gitlab.com/kalilinux/packages/funkload/-
 ;;
 
 /13|13) Gobuster
-clear
-mkdir Gobuster
-cd Gobuster/
-curl -O https://github.com/OJ/gobuster.git
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta_git "Gobuster" "https://github.com/OJ/gobuster.git" 
 ;;
 
 /14|14) Grabber
-clear
-mkdir Grabber
-cd Grabber/
-curl -O https://gitlab.com/kalilinux/packages/grabber/-/archive/kali/master/grabber-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Grabber" "https://gitlab.com/kalilinux/packages/grabber/-/archive/kali/master/grabber-kali-master.zip" 
 ;;
 
 /15|15) hURL
-clear
-mkdir hURL
-cd hURL/
-curl -O https://gitlab.com/kalilinux/packages/hurl/-/archive/kali/master/hurl-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "hURL" "https://gitlab.com/kalilinux/packages/hurl/-/archive/kali/master/hurl-kali-master.zip"
 ;;
 
 /16|16) jboss-autopwn
-clear
-mkdir jboss-autopwn
-cd jboss-autopwn/
-curl -O https://gitlab.com/kalilinux/packages/joomscan/-/archive/kali/master/joomscan-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "jboss-autopwn" "https://gitlab.com/kalilinux/packages/joomscan/-/archive/kali/master/joomscan-kali-master.zip"
 ;;
 
 /17|17) joomscan
-clear
-mkdir joomscan
-cd joomscan/
-curl -O https://gitlab.com/kalilinux/packages/joomscan/-/archive/kali/master/joomscan-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "joomscan" "https://gitlab.com/kalilinux/packages/joomscan/-/archive/kali/master/joomscan-kali-master.zip"
 ;;
 
 /18|18) jSQL Injection
-clear
-mkdir jSQLInjection
-cd jSQLInjection/
-curl -O https://gitlab.com/kalilinux/packages/maltego-teeth/-/archive/kali/master/maltego-teeth-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "jSQL Injection" "https://gitlab.com/kalilinux/packages/maltego-teeth/-/archive/kali/master/maltego-teeth-kali-master.zip" 
 ;;
 
 /19|19) Maltego Teeth
-clear
-mkdir MaltegoTeeth
-cd MaltegoTeeth/
-curl -O https://gitlab.com/kalilinux/packages/maltego-teeth/-/archive/kali/master/maltego-teeth-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Maltego Teeth" "https://gitlab.com/kalilinux/packages/maltego-teeth/-/archive/kali/master/maltego-teeth-kali-master.zip"
 ;;
 
 /20|20) Nikto
-clear
-mkdir Nikto
-cd Nikto/
-curl -O https://gitlab.com/kalilinux/packages/nikto/-/archive/kali/master/nikto-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Nikto" "https://gitlab.com/kalilinux/packages/nikto/-/archive/kali/master/nikto-kali-master.zip"
 ;;
 
 /21|21) PadBuster
-clear
-mkdir PadBuster
-cd PadBuster/
-curl -O https://gitlab.com/kalilinux/packages/padbuster/-/archive/kali/master/padbuster-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "PadBuster" "https://gitlab.com/kalilinux/packages/padbuster/-/archive/kali/master/padbuster-kali-master.zip"
 ;;
 
 /22|22) Paros
-clear
-mkdir Paros
-cd Paros/
-curl -O https://gitlab.com/kalilinux/packages/paros/-/archive/kali/master/paros-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Paros" "https://gitlab.com/kalilinux/packages/paros/-/archive/kali/master/paros-kali-master.zip"
 ;;
 
 /23|23) Parsero
-clear
-mkdir Parsero
-cd Parsero/
-curl -O https://github.com/behindthefirewalls/Parsero/archive/master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Parsero" "https://github.com/behindthefirewalls/Parsero/archive/master.zip"
 ;;
 
 /24|24) plecost
-clear
-mkdir plecost
-cd plecost/
-curl -O https://gitlab.com/kalilinux/packages/plecost/-/archive/kali/master/plecost-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "plecost" "https://gitlab.com/kalilinux/packages/plecost/-/archive/kali/master/plecost-kali-master.zip"
 ;;
 
 /25|25) Powerfuzzer
-clear
-mkdir Powerfuzzer 
-cd Powerfuzzer/
-curl -O https://gitlab.com/kalilinux/packages/powerfuzzer/-/archive/kali/master/powerfuzzer-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Powerfuzzer" "https://gitlab.com/kalilinux/packages/powerfuzzer/-/archive/kali/master/powerfuzzer-kali-master.zip"
 ;;
 
 /26|26) ProxyStrike
-clear
-mkdir ProxyStrike 
-cd ProxyStrike/
-curl -O https://gitlab.com/kalilinux/packages/proxystrike/-/archive/kali/master/proxystrike-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "ProxyStrike" "https://gitlab.com/kalilinux/packages/proxystrike/-/archive/kali/master/proxystrike-kali-master.zip"
 ;;
 
 /27|27) Recon-ng 
-clear
-mkdir Recon-ng  
-cd Recon-ng/
-curl -O https://gitlab.com/kalilinux/packages/recon-ng/-/archive/kali/master/recon-ng-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Recon-ng " "https://gitlab.com/kalilinux/packages/recon-ng/-/archive/kali/master/recon-ng-kali-master.zip"
 ;;
 
 /28|28) Skipfish
-clear
-mkdir Skipfish
-cd Skipfish/
-curl -O https://gitlab.com/kalilinux/packages/skipfish/-/archive/kali/master/skipfish-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Skipfish" "https://gitlab.com/kalilinux/packages/skipfish/-/archive/kali/master/skipfish-kali-master.zip" 
 ;;
 
 /29|29) sqlmap
-clear
-mkdir sqlmap
-cd sqlmap/
-curl -O https://gitlab.com/kalilinux/packages/sqlmap/-/archive/kali/master/sqlmap-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "sqlmap" "https://gitlab.com/kalilinux/packages/sqlmap/-/archive/kali/master/sqlmap-kali-master.zip"
 ;;
 
 /30|30) Sqlninja
-clear
-mkdir Sqlninja
-cd Sqlninja/
-curl -O https://gitlab.com/kalilinux/packages/sqlninja/-/archive/kali/master/sqlninja-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Sqlninja" "https://gitlab.com/kalilinux/packages/sqlninja/-/archive/kali/master/sqlninja-kali-master.zip"
 ;;
 
 /31|31) sqlsus
-clear
-mkdir sqlsus
-cd sqlsus/
-curl -O https://gitlab.com/kalilinux/packages/sqlsus/-/archive/kali/master/sqlsus-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "sqlsus" "https://gitlab.com/kalilinux/packages/sqlsus/-/archive/kali/master/sqlsus-kali-master.zip"
 ;;
 
 /32|32) ua-tester 
-clear
-mkdir ua-tester 
-cd ua-tester/
-curl -O https://gitlab.com/kalilinux/packages/ua-tester/-/archive/kali/master/ua-tester-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "ua-tester" "https://gitlab.com/kalilinux/packages/ua-tester/-/archive/kali/master/ua-tester-kali-master.zip"
 ;;
 
 /33|33) Uniscan
-clear
-mkdir Uniscan
-cd Uniscan/
-curl -O https://gitlab.com/kalilinux/packages/uniscan/-/archive/kali/master/uniscan-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Uniscan" "https://gitlab.com/kalilinux/packages/uniscan/-/archive/kali/master/uniscan-kali-master.zip"
 ;;
 
 /34|34) w3af
-clear
-mkdir w3af
-cd w3af/
-curl -O https://gitlab.com/kalilinux/packages/w3af/-/archive/kali/master/w3af-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "w3af" "https://gitlab.com/kalilinux/packages/w3af/-/archive/kali/master/w3af-kali-master.zip"
 ;;
 
 /35|35) WebScarab
-clear
-mkdir WebScarab
-cd WebScarab/
-curl -O https://gitlab.com/kalilinux/packages/webscarab/-/archive/kali/master/webscarab-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "WebScarab" "https://gitlab.com/kalilinux/packages/webscarab/-/archive/kali/master/webscarab-kali-master.zip"
 ;;
 
 /36|36) Webshag
-clear
-mkdir Webshag
-cd Webshag/
-curl -O https://gitlab.com/kalilinux/packages/webshag/-/archive/kali/master/webshag-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Webshag" "https://gitlab.com/kalilinux/packages/webshag/-/archive/kali/master/webshag-kali-master.zip"
 ;;
 
 /37|37) WebSlayer 
-clear
-mkdir WebSlayer
-cd WebSlayer/
-curl -O https://gitlab.com/kalilinux/packages/webslayer/-/archive/kali/master/webslayer-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "WebSlayer" "https://gitlab.com/kalilinux/packages/webslayer/-/archive/kali/master/webslayer-kali-master.zip"
 ;;
 
 /38|38) WebSploit
-clear
-mkdir WebSploit 
-cd WebSploit/
-curl -O https://gitlab.com/kalilinux/packages/websploit/-/archive/kali/master/websploit-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "WebSploit" "https://gitlab.com/kalilinux/packages/websploit/-/archive/kali/master/websploit-kali-master.zip"
 ;;
 
 /39|39) Wfuzz
-clear
-mkdir Wfuzz
-cd Wfuzz/
-curl -O https://gitlab.com/kalilinux/packages/wfuzz/-/archive/kali/master/wfuzz-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "Wfuzz" "https://gitlab.com/kalilinux/packages/wfuzz/-/archive/kali/master/wfuzz-kali-master.zip"
 ;;
 
 /40|40) WhatWeb 
-clear
-mkdir WhatWeb
-cd WhatWeb/
-curl -O https://github.com/urbanadventurer/WhatWeb/archive/v0.5.4.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "WhatWeb" "https://github.com/urbanadventurer/WhatWeb/archive/v0.5.4.zip" 
 ;;
 
 /41|41) WPScan 
-clear
-mkdir WPScan
-cd WPScan/
-curl -O https://gitlab.com/kalilinux/packages/wpscan/-/archive/kali/master/wpscan-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "WPScan" "https://gitlab.com/kalilinux/packages/wpscan/-/archive/kali/master/wpscan-kali-master.zip"
 ;;
 
 /42|42) XSSer
-clear
-mkdir XSSer
-cd XSSer/
-curl -O https://gitlab.com/kalilinux/packages/xsser/-/archive/kali/master/xsser-kali-master.zip
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "XSSer" "https://gitlab.com/kalilinux/packages/xsser/-/archive/kali/master/xsser-kali-master.zip"
 ;;
 
 /43|43) zaproxy
-mkdir zaproxy
-cd zaproxy/
-curl -O https://gitlab.com/kalilinux/packages/zaproxy/-/archive/kali/master/zaproxy-kali-master.zip
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |W|e|b| |A|p|p|l|i|c|a|t|i|o|n|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Informa
+download_ferramenta "zaproxy" "https://gitlab.com/kalilinux/packages/zaproxy/-/archive/kali/master/zaproxy-kali-master.zip" 
 ;;
 
 /menu|menu) 
