@@ -1287,144 +1287,44 @@ download_ferramenta "exploitdb" "https://gitlab.com/kalilinux/packages/exploitdb
 download_ferramenta "jboss-autopwn" "https://gitlab.com/kalilinux/packages/jboss-autopwn/-/archive/kali/master/jboss-autopwn-kali-master.zip"
 ;;
 
-/12|12) Linux-Exploit-Suggester 
-mkdir LinuxExploitSuggester 
-clear
-cd LinuxExploitSuggester/
-curl -O https://gitlab.com/kalilinux/packages/linux-exploit-suggester/-/archive/kali/master/linux-exploit-suggester-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+/12|12) Linux-Exploit-Suggester
+download_ferramenta "Linux-Exploit-Suggester" "https://gitlab.com/kalilinux/packages/linux-exploit-suggester/-/archive/kali/master/linux-exploit-suggester-kali-master.zip" 
 ;;
 
 /13|13) Maltego-Teeth
-mkdir Maltego-Teeth
-clear
-cd Maltego-Teeth/
-curl -O https://gitlab.com/kalilinux/packages/maltego-teeth/-/archive/kali/master/maltego-teeth-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "Maltego-Teeth" "https://gitlab.com/kalilinux/packages/maltego-teeth/-/archive/kali/master/maltego-teeth-kali-master.zip"
 ;;
 
 /14|14) metasploit-framework
-mkdir metasploit-framework
-clear
-cd metasploit-framework/
-curl -O https://gitlab.com/kalilinux/packages/metasploit-framework/-/archive/kali/master/metasploit-framework-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "metasploit-framework" "https://gitlab.com/kalilinux/packages/metasploit-framework/-/archive/kali/master/metasploit-framework-kali-master.zip"
 ;;
 
 /15|15) MSFPC
-mkdir MSFPC
-clear
-cd MSFPC/
-curl -O https://gitlab.com/kalilinux/packages/msfpc/-/archive/kali/master/msfpc-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "MSFPC" "https://gitlab.com/kalilinux/packages/msfpc/-/archive/kali/master/msfpc-kali-master.zip"
 ;;
 
 /16|16) routersploit
-mkdir routersploit
-clear
-cd routersploit/
-curl -O https://gitlab.com/kalilinux/packages/routersploit/-/archive/kali/master/routersploit-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "routersploit" "https://gitlab.com/kalilinux/packages/routersploit/-/archive/kali/master/routersploit-kali-master.zip"
 ;;
 
 /17|17) SET
-mkdir SET
-clear
-cd SET/
-curl -O https://gitlab.com/kalilinux/packages/set/-/archive/kali/master/set-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "SET" "https://gitlab.com/kalilinux/packages/set/-/archive/kali/master/set-kali-master.zip"
 ;;
 
 /18|18) ShellNoob
-mkdir ShellNoob
-clear
-cd ShellNoob/
-curl -O https://gitlab.com/kalilinux/packages/shellnoob/-/archive/kali/master/shellnoob-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "ShellNoob" "https://gitlab.com/kalilinux/packages/shellnoob/-/archive/kali/master/shellnoob-kali-master.zip"
 ;;
 
 /19|19) sqlmap
-mkdir sqlmap
-clear
-cd sqlmap/
-curl -O https://gitlab.com/kalilinux/packages/sqlmap/-/archive/kali/master/sqlmap-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "sqlmap" "https://gitlab.com/kalilinux/packages/sqlmap/-/archive/kali/master/sqlmap-kali-master.zip"
 ;;
 
 /20|20) THC-IPV6 
-mkdir THC-IPV6 
-clear
-cd THC-IPV6/
-curl -O https://gitlab.com/kalilinux/packages/thc-ipv6/-/archive/kali/master/thc-ipv6-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "THC-IPV6" "https://gitlab.com/kalilinux/packages/thc-ipv6/-/archive/kali/master/thc-ipv6-kali-master.zip"
 ;;
 
 /21|21) Yersinia
-mkdir Yersinia
-clear
-cd Yersinia/
-curl -O https://gitlab.com/kalilinux/packages/yersinia/-/archive/kali/master/yersinia-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "Yersinia" "https://gitlab.com/kalilinux/packages/yersinia/-/archive/kali/master/yersinia-kali-master.zip"
 ;;
 
 /menu|menu) 
