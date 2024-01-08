@@ -1243,157 +1243,48 @@ read -p  ">>>>>>>>>>>"  menu4
 case $menu4 in
 
 /1|1) Armitage
-mkdir Armitage
-clear
-cd Armitage/
-curl -O https://gitlab.com/kalilinux/packages/armitage/-/archive/kali/master/armitage-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+
+download_ferramenta "Armitage" "https://gitlab.com/kalilinux/packages/armitage/-/archive/kali/master/armitage-kali-master.zip"
 ;;
 
 /2|2) Backdoor-Factory
-mkdir BackdoorFactory
-clear
-cd BackdoorFactory/
-curl -O https://gitlab.com/kalilinux/packages/backdoor-factory/-/archive/kali/master/backdoor-factory-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "Backdoor-Factory" "https://gitlab.com/kalilinux/packages/backdoor-factory/-/archive/kali/master/backdoor-factory-kali-master.zip" 
 ;;
 
 /3|3) BeEF
-mkdir BeEF
-clear
-cd BeEF/
-curl -O https://gitlab.com/kalilinux/packages/beef-xss/-/archive/kali/master/beef-xss-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "BeEF" "https://gitlab.com/kalilinux/packages/beef-xss/-/archive/kali/master/beef-xss-kali-master.zip"
 ;;
 
 /4|4) cisco-auditing-tool
-mkdir cisco-auditing-tool
-clear
-cd cisco-auditing-tool/
-curl -O https://gitlab.com/kalilinux/packages/cisco-auditing-tool/-/archive/kali/master/cisco-auditing-tool-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "cisco-auditing-tool" "https://gitlab.com/kalilinux/packages/cisco-auditing-tool/-/archive/kali/master/cisco-auditing-tool-kali-master.zip"
 ;;
 
 /5|5) cisco-global-exploiter
-mkdir cisco-global-exploiter
-clear
-cd cisco-global-exploiter/
-curl -O https://gitlab.com/kalilinux/packages/cisco-global-exploiter/-/archive/kali/master/cisco-global-exploiter-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "cisco-global-exploiter" "https://gitlab.com/kalilinux/packages/cisco-auditing-tool/-/archive/kali/master/cisco-auditing-tool-kali-master.zip"
 ;;
 
 /6|6) cisco-ocs
-mkdir cisco-ocs
-clear
-cd cisco-ocs/
-curl -O https://gitlab.com/kalilinux/packages/cisco-ocs/-/archive/kali/master/cisco-ocs-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "cisco-ocs" "https://gitlab.com/kalilinux/packages/cisco-ocs/-/archive/kali/master/cisco-ocs-kali-master.zip" 
 ;;
 
 /7|7) cisco-torch
-mkdir cisco-torch 
-clear
-cd cisco-torch/
-curl -O https://gitlab.com/kalilinux/packages/cisco-torch/-/archive/kali/master/cisco-torch-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "cisco-torch" "https://gitlab.com/kalilinux/packages/cisco-torch/-/archive/kali/master/cisco-torch-kali-master.zip" 
 ;;
 
 /8|8) commix
-mkdir commix
-clear
-cd commix/
-curl -O https://github.com/commixproject/commix/archive/master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "commix" "https://github.com/commixproject/commix/archive/master.zip"
 ;;
 
 /9|9) crackle
-mkdir crackle
-clear
-cd crackle/
-curl -O https://gitlab.com/kalilinux/packages/crackle/-/archive/kali/master/crackle-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "crackle" "https://gitlab.com/kalilinux/packages/crackle/-/archive/kali/master/crackle-kali-master.zip"
 ;;
 
 /10|10) exploitdb
-mkdir exploitdb
-clear
-cd exploitdb/
-curl -O https://gitlab.com/kalilinux/packages/exploitdb/-/archive/kali/master/exploitdb-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "exploitdb" "https://gitlab.com/kalilinux/packages/exploitdb/-/archive/kali/master/exploitdb-kali-master.zip" 
 ;;
 
 /11|11) jboss-autopwn 
-mkdir jboss-autopwn
-clear
-cd jboss-autopwn/
-curl -O https://gitlab.com/kalilinux/packages/jboss-autopwn/-/archive/kali/master/jboss-autopwn-kali-master.zip
-clear
-cd ..
-echo -e "$red""                                            "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |E|x|p|l|o|i|t|a|t|i|o|n| |T|o|o|l|s| "
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy"  &&sleep 2 &&Exploração
+download_ferramenta "jboss-autopwn" "https://gitlab.com/kalilinux/packages/jboss-autopwn/-/archive/kali/master/jboss-autopwn-kali-master.zip"
 ;;
 
 /12|12) Linux-Exploit-Suggester 
