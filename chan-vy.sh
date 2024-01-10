@@ -1485,68 +1485,23 @@ read -p  ">>>>>>>>>>>"  menu6
 case $menu6 in
 
 /1|1) Binwalk 
-clear 
-mkdir Binwalk
-cd Binwalk/
-curl -O https://gitlab.com/kalilinux/packages/binwalk/-/archive/kali/master/binwalk-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "Binwalk" "https://gitlab.com/kalilinux/packages/binwalk/-/archive/kali/master/binwalk-kali-master.zip"
 ;;
 
 /2|2) bulk-extractor 
-clear 
-mkdir bulk-extractor
-cd bulk-extractor/
-curl -O https://gitlab.com/kalilinux/packages/bulk-extractor/-/archive/kali/master/bulk-extractor-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "bulk-extractor"  "https://gitlab.com/kalilinux/packages/bulk-extractor/-/archive/kali/master/bulk-extractor-kali-master.zip"
 ;;
 
 /3|3) Capstone
-clear 
-mkdir Capstone
-cd Capstone/
-curl -O https://github.com/aquynh/capstone/archive/master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "Capstone" "https://github.com/aquynh/capstone/archive/master.zip"
 ;;
 
 /4|4) chntpw
-clear 
-mkdir chntpw
-cd chntpw/
-curl -O https://gitlab.com/kalilinux/packages/chntpw/-/archive/kali/master/chntpw-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "chntpw" "https://gitlab.com/kalilinux/packages/chntpw/-/archive/kali/master/chntpw-kali-master.zip"
 ;;
 
 /5|5) Cuckoo
-clear 
-mkdir Cuckoo
-cd Cuckoo/
-curl -O https://gitlab.com/kalilinux/packages/cuckoo/-/archive/kali/master/cuckoo-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "Cuckoo" "https://gitlab.com/kalilinux/packages/cuckoo/-/archive/kali/master/cuckoo-kali-master.zip"
 ;;
 
 /6|6) dc3dd
