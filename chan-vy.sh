@@ -1374,68 +1374,23 @@ read -p  ">>>>>>>>>>>"  menu5
 case $menu5 in
 
 /1|1) DHCPig 
-clear 
-mkdir DHCPig
-cd DHCPig/
-curl -O https://gitlab.com/kalilinux/packages/dhcpig/-/archive/kali/master/dhcpig-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "DHCPig" "https://gitlab.com/kalilinux/packages/dhcpig/-/archive/kali/master/dhcpig-kali-master.zip"
 ;;
 
 /2|2) FunkLoad 
-clear 
-mkdir FunkLoad
-cd FunkLoad/
-curl -O https://gitlab.com/kalilinux/packages/funkload/-/archive/kali/master/funkload-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "FunkLoad" "https://gitlab.com/kalilinux/packages/funkload/-/archive/kali/master/funkload-kali-master.zip"
 ;;
 
 /3|3) iaxflood 
-clear 
-mkdir iaxflood
-cd iaxflood/
-curl -O https://gitlab.com/kalilinux/packages/iaxflood/-/archive/kali/master/iaxflood-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "iaxflood" "https://gitlab.com/kalilinux/packages/iaxflood/-/archive/kali/master/iaxflood-kali-master.zip"
 ;;
 
 /4|4) Inundator  
-clear 
-mkdir Inundator
-cd Inundator/
-curl -O https://gitlab.com/kalilinux/packages/inundator/-/archive/kali/master/inundator-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "Inundator" "https://gitlab.com/kalilinux/packages/inundator/-/archive/kali/master/inundator-kali-master.zip"
 ;;
 
 /5|5) inviteflood
-clear 
-mkdir inviteflood
-cd inviteflood/
-curl -O https://gitlab.com/kalilinux/packages/inviteflood/-/archive/kali/master/inviteflood-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "inviteflood" "https://gitlab.com/kalilinux/packages/inviteflood/-/archive/kali/master/inviteflood-kali-master.zip"
 ;;
 
 /6|6) ipv6-toolkit 
