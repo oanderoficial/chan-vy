@@ -1394,120 +1394,39 @@ download_ferramenta "inviteflood" "https://gitlab.com/kalilinux/packages/invitef
 ;;
 
 /6|6) ipv6-toolkit 
-clear 
-mkdir ipv6-toolkit 
-cd  ipv6-toolkit/
-curl -O https://gitlab.com/kalilinux/packages/ipv6-toolkit/-/archive/kali/master/ipv6-toolkit-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "ipv6-toolkit " "https://gitlab.com/kalilinux/packages/ipv6-toolkit/-/archive/kali/master/ipv6-toolkit-kali-master.zip"
 ;;
 
 /7|7) mdk3 
-clear 
-mkdir mdk3
-cd  mdk3/
-curl -O https://gitlab.com/kalilinux/packages/mdk3/-/archive/kali/master/mdk3-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "mdk3" "https://gitlab.com/kalilinux/packages/mdk3/-/archive/kali/master/mdk3-kali-master.zip"
 ;;
 
 /8|8) Reaver 
-clear 
-mkdir Reaver
-cd  Reaver/
-curl -O https://gitlab.com/kalilinux/packages/reaver/-/archive/kali/master/reaver-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "Reaver" "https://gitlab.com/kalilinux/packages/reaver/-/archive/kali/master/reaver-kali-master.zip"
 ;;
 
 /9|9) rtpflood
-clear 
-mkdir rtpflood
-cd  rtpflood/
-curl -O https://gitlab.com/kalilinux/packages/rtpflood/-/archive/kali/master/rtpflood-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "rtpflood" "https://gitlab.com/kalilinux/packages/rtpflood/-/archive/kali/master/rtpflood-kali-master.zip"
 ;;
 
 /10|10) SlowHTTPTest
-clear 
-mkdir SlowHTTPTest
-cd  SlowHTTPTest/
-curl -O https://gitlab.com/kalilinux/packages/slowhttptest/-/archive/kali/master/slowhttptest-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "SlowHTTPTest" "https://gitlab.com/kalilinux/packages/slowhttptest/-/archive/kali/master/slowhttptest-kali-master.zip"
 ;;
 
 /11|11) t50
-clear 
-mkdir t50
-cd  t50/
-curl -O https://gitlab.com/kalilinux/packages/t50/-/archive/kali/master/t50-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "t50" "https://gitlab.com/kalilinux/packages/t50/-/archive/kali/master/t50-kali-master.zip"
 ;;
 
 /12|12) Termineter
-clear 
-mkdir Termineter
-cd  Termineter/
-curl -O https://gitlab.com/kalilinux/packages/termineter/-/archive/kali/master/termineter-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "Termineter" "https://gitlab.com/kalilinux/packages/termineter/-/archive/kali/master/termineter-kali-master.zip"
 ;;
 
 /13|13) THC-IPV6
-clear 
-mkdir THC-IPV6
-cd  THC-IPV6/
-curl -O https://gitlab.com/kalilinux/packages/thc-ipv6/-/archive/kali/master/thc-ipv6-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "THC-IPV6" "https://gitlab.com/kalilinux/packages/thc-ipv6/-/archive/kali/master/thc-ipv6-kali-master.zip"
 ;;
 
 /14|14) THC-SSL-DOS
-clear 
-mkdir THC-SSL-DOS
-cd  THC-SSL-DOS/
-curl -O https://gitlab.com/kalilinux/packages/thc-ssl-dos/-/archive/kali/master/thc-ssl-dos-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red"" |S|t|r|e|s|s| |T|e|s|t|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Stress
+download_ferramenta "THC-SSL-DOS" "https://gitlab.com/kalilinux/packages/thc-ssl-dos/-/archive/kali/master/thc-ssl-dos-kali-master.zip"
 ;;
 
 /menu|menu) 
