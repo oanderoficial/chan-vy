@@ -1505,68 +1505,23 @@ download_ferramenta "Cuckoo" "https://gitlab.com/kalilinux/packages/cuckoo/-/arc
 ;;
 
 /6|6) dc3dd
-clear 
-mkdir dc3dd
-cd dc3dd/
-curl -O https://gitlab.com/kalilinux/packages/dc3dd/-/archive/kali/master/dc3dd-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "dc3dd" "https://gitlab.com/kalilinux/packages/dc3dd/-/archive/kali/master/dc3dd-kali-master.zip"
 ;;
 
 /7|7) ddrescue 
-clear 
-mkdir ddrescue
-cd ddrescue/
-curl -O https://gitlab.com/kalilinux/packages/ddrescue/-/archive/kali/master/ddrescue-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "ddrescue" "https://gitlab.com/kalilinux/packages/ddrescue/-/archive/kali/master/ddrescue-kali-master.zip"
 ;;
 
 /8|8) DFF
-clear 
-mkdir DFF
-cd DFF/
-curl -O https://gitlab.com/kalilinux/packages/dff/-/archive/kali/master/dff-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "DFF" "https://gitlab.com/kalilinux/packages/dff/-/archive/kali/master/dff-kali-master.zip"
 ;;
 
 /9|9) diStorm3
-clear 
-mkdir diStorm3
-cd diStorm3/
-curl -O https://gitlab.com/kalilinux/packages/distorm3/-/archive/kali/master/distorm3-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "diStorm3" "https://gitlab.com/kalilinux/packages/distorm3/-/archive/kali/master/distorm3-kali-master.zip"
 ;;
 
 /10|10) Dumpzilla
-clear 
-mkdir Dumpzilla
-cd Dumpzilla/
-curl -O https://gitlab.com/kalilinux/packages/dumpzilla/-/archive/kali/master/dumpzilla-kali-master.zip
-clear
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |F|o|r|e|n|s|i|c|s| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Forensics
+download_ferramenta "Dumpzilla" "https://gitlab.com/kalilinux/packages/dumpzilla/-/archive/kali/master/dumpzilla-kali-master.zip"
 ;;
 
 /11|11) extundelete
