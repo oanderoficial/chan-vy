@@ -1682,133 +1682,43 @@ download_ferramenta "isr-evilgrade" "https://gitlab.com/kalilinux/packages/isr-e
 ;;
 
 /11|11) mitmproxy
-clear 
-mkdir mitmproxy 
-cd mitmproxy/
-curl -O https://gitlab.com/kalilinux/packages/mitmproxy/-/archive/kali/master/mitmproxy-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "mitmproxy" "https://gitlab.com/kalilinux/packages/mitmproxy/-/archive/kali/master/mitmproxy-kali-master.zip"
 ;;
 
 /12|12) ohrwurm
-clear 
-mkdir ohrwurm 
-cd ohrwurm/
-curl -O https://gitlab.com/kalilinux/packages/ohrwurm/-/archive/kali/master/ohrwurm-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "ohrwurm" "https://gitlab.com/kalilinux/packages/ohrwurm/-/archive/kali/master/ohrwurm-kali-master.zip"
 ;;
 
 /13|13) protos-sip
-clear 
-mkdir protos-sip 
-cd protos-sip/
-curl -O https://gitlab.com/kalilinux/packages/protos-sip/-/archive/kali/master/protos-sip-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "protos-sip" "https://gitlab.com/kalilinux/packages/protos-sip/-/archive/kali/master/protos-sip-kali-master.zip"
 ;;
 
 /14|14) rebind
-clear 
-mkdir rebind
-cd rebind/
-curl -O https://gitlab.com/kalilinux/packages/rebind/-/archive/kali/master/rebind-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "rebind" "https://gitlab.com/kalilinux/packages/rebind/-/archive/kali/master/rebind-kali-master.zip"
 ;;
 
 /15|15) responder
-clear 
-mkdir responder
-cd responder/
-curl -O https://gitlab.com/kalilinux/packages/responder/-/archive/kali/master/responder-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "responder" "https://gitlab.com/kalilinux/packages/responder/-/archive/kali/master/responder-kali-master.zip"
 ;;
 
 /16|16) rtpbreak
-clear 
-mkdir rtpbreak
-cd rtpbreak/
-curl -O https://gitlab.com/kalilinux/packages/rtpbreak/-/archive/kali/master/rtpbreak-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "rtpbreak" "https://gitlab.com/kalilinux/packages/rtpbreak/-/archive/kali/master/rtpbreak-kali-master.zip"
 ;;
 
 /17|17) rtpinsertsound
-clear 
-mkdir rtpinsertsound
-cd rtpinsertsound/
-curl -O https://gitlab.com/kalilinux/packages/rtpinsertsound/-/archive/kali/master/rtpinsertsound-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "rtpinsertsound" "https://gitlab.com/kalilinux/packages/rtpinsertsound/-/archive/kali/master/rtpinsertsound-kali-master.zip"
 ;;
 
 /18|18) rtpmixsound
-clear 
-mkdir rtpmixsound
-cd rtpmixsound/
-curl -O https://gitlab.com/kalilinux/packages/rtpmixsound/-/archive/kali/master/rtpmixsound-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "rtpmixsound" "https://gitlab.com/kalilinux/packages/rtpmixsound/-/archive/kali/master/rtpmixsound-kali-master.zip"
 ;;
 
 /19|19) sctpscan
-clear 
-mkdir sctpscan
-cd sctpscan/
-curl -O https://gitlab.com/kalilinux/packages/sctpscan/-/archive/kali/master/sctpscan-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "sctpscan" "https://gitlab.com/kalilinux/packages/sctpscan/-/archive/kali/master/sctpscan-kali-master.zip"
 ;;
 
 /20|20) SIPArmyKnife
-clear 
-mkdir SIPArmyKnife
-cd SIPArmyKnife/
-curl -O https://gitlab.com/kalilinux/packages/siparmyknife/-/archive/kali/master/siparmyknife-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""  |S|n|i|f|f|i|n|g| |&| |S|p|o|o|f|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Sniffing
+download_ferramenta "SIPArmyKnife" "https://gitlab.com/kalilinux/packages/siparmyknife/-/archive/kali/master/siparmyknife-kali-master.zip"
 ;;
 
 /21|21) SIPp
