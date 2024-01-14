@@ -1846,133 +1846,43 @@ read -p  ">>>>>>>>>>>"  menu8
 case $menu8 in
 
 /1|1) BruteSpray 
-clear 
-mkdir BruteSpray
-cd BruteSpray/
-curl -O https://github.com/x90skysn3k/brutespray/archive/master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "BruteSpray" "https://github.com/x90skysn3k/brutespray/archive/master.zip"
 ;;
 
 /2|2) BurpSuite 
-clear 
-mkdir BurpSuite
-cd BurpSuite/
-curl -O https://gitlab.com/kalilinux/packages/burpsuite/-/archive/kali/master/burpsuite-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "BurpSuite" "https://gitlab.com/kalilinux/packages/burpsuite/-/archive/kali/master/burpsuite-kali-master.zip"
 ;;
 
 /3|3) CeWL 
-clear 
-mkdir CeWL
-cd CeWL/
-curl -O https://gitlab.com/kalilinux/packages/cewl/-/archive/kali/master/cewl-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "CeWL" "https://gitlab.com/kalilinux/packages/cewl/-/archive/kali/master/cewl-kali-master.zip"
 ;;
 
 /4|4) chntpw 
-clear 
-mkdir chntpw
-cd chntpw/
-curl -O https://gitlab.com/kalilinux/packages/chntpw/-/archive/kali/master/chntpw-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "chntpw" "https://gitlab.com/kalilinux/packages/chntpw/-/archive/kali/master/chntpw-kali-master.zip"
 ;;
 
 /5|5) cisco-auditing-tool 
-clear 
-mkdir cisco-auditing-tool
-cd cisco-auditing-tool/
-curl -O https://gitlab.com/kalilinux/packages/cisco-auditing-tool/-/archive/kali/master/cisco-auditing-tool-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "cisco-auditing-tool " "https://gitlab.com/kalilinux/packages/cisco-auditing-tool/-/archive/kali/master/cisco-auditing-tool-kali-master.zip"
 ;;
 
 /6|6) CmosPwd 
-clear 
-mkdir CmosPwd
-cd CmosPwd/
-curl -O https://gitlab.com/kalilinux/packages/cmospwd/-/archive/kali/master/cmospwd-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "CmosPwd" "https://gitlab.com/kalilinux/packages/cmospwd/-/archive/kali/master/cmospwd-kali-master.zip"
 ;;
 
 /7|7) creddump 
-clear 
-mkdir creddump
-cd creddump/
-curl -O https://gitlab.com/kalilinux/packages/creddump/-/archive/kali/master/creddump-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "creddump" "https://gitlab.com/kalilinux/packages/creddump/-/archive/kali/master/creddump-kali-master.zip"
 ;;
 
 /8|8) crowbar 
-clear 
-mkdir crowbar
-cd crowbar/
-curl -O https://gitlab.com/kalilinux/packages/crowbar/-/archive/kali/master/crowbar-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "crowbar" "https://gitlab.com/kalilinux/packages/crowbar/-/archive/kali/master/crowbar-kali-master.zip"
 ;;
 
 /9|9) crunch 
-clear 
-mkdir crunch
-cd crunch/
-curl -O https://gitlab.com/kalilinux/packages/crunch/-/archive/kali/master/crunch-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "crunch" "https://gitlab.com/kalilinux/packages/crunch/-/archive/kali/master/crunch-kali-master.zip"
 ;;
 
 /10|10) findmyhash 
-clear 
-mkdir findmyhash
-cd findmyhash/
-curl -O https://gitlab.com/kalilinux/packages/findmyhash/-/archive/kali/master/findmyhash-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "findmyhash" "https://gitlab.com/kalilinux/packages/findmyhash/-/archive/kali/master/findmyhash-kali-master.zip"
 ;;
 
 /11|11) gpp-decrypt 
