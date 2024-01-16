@@ -1930,120 +1930,39 @@ download_ferramenta "Ncrack" "https://gitlab.com/kalilinux/packages/ncrack/-/arc
 ;; 
 
 /22|22) oclgausscrack 
-clear 
-mkdir oclgausscrack 
-cd oclgausscrack/
-curl -O https://gitlab.com/kalilinux/packages/oclgausscrack/-/archive/kali/master/oclgausscrack-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "oclgausscrack" "https://gitlab.com/kalilinux/packages/oclgausscrack/-/archive/kali/master/oclgausscrack-kali-master.zip"
 ;; 
 
 /23|23) ophcrack 
-clear 
-mkdir ophcrack 
-cd ophcrack/
-curl -O https://downloads.sourceforge.net/project/ophcrack/ophcrack/3.8.0/ophcrack-3.8.0.tar.bz2?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fophcrack%2Ffiles%2Fophcrack%2F3.8.0%2Fophcrack-3.8.0.tar.bz2%2Fdownload&ts=1612621466
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "ophcrack" "https://downloads.sourceforge.net/project/ophcrack/ophcrack/3.8.0/ophcrack-3.8.0.tar.bz2?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fophcrack%2Ffiles%2Fophcrack%2F3.8.0%2Fophcrack-3.8.0.tar.bz2%2Fdownload&ts=1612621466"
 ;; 
 
 /24|24) PACK 
-clear 
-mkdir PACK 
-cd PACK/
-curl -O https://gitlab.com/kalilinux/packages/pack/-/archive/kali/master/pack-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "PACK" "https://gitlab.com/kalilinux/packages/pack/-/archive/kali/master/pack-kali-master.zip"
 ;; 
 
 /25|25) patator 
-clear 
-mkdir patator 
-cd patator/
-curl -O https://gitlab.com/kalilinux/packages/patator/-/archive/kali/master/patator-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "patator" "https://gitlab.com/kalilinux/packages/patator/-/archive/kali/master/patator-kali-master.zip"
 ;; 
 
 /26|26) phrasendrescher 
-clear 
-mkdir phrasendrescher 
-cd phrasendrescher/
-curl -O https://gitlab.com/kalilinux/packages/phrasendrescher/-/archive/kali/master/phrasendrescher-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "phrasendrescher" "https://gitlab.com/kalilinux/packages/phrasendrescher/-/archive/kali/master/phrasendrescher-kali-master.zip"
 ;; 
 
 /27|27) polenum 
-clear 
-mkdir polenum 
-cd polenum/
-curl -O https://gitlab.com/kalilinux/packages/polenum/-/archive/kali/master/polenum-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "polenum" "https://gitlab.com/kalilinux/packages/polenum/-/archive/kali/master/polenum-kali-master.zip"
 ;; 
 
 /28|28) RainbowCrack 
-clear 
-mkdir RainbowCrack 
-cd RainbowCrack/
-curl -O https://gitlab.com/kalilinux/packages/rainbowcrack/-/archive/kali/master/rainbowcrack-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "RainbowCrack" "https://gitlab.com/kalilinux/packages/rainbowcrack/-/archive/kali/master/rainbowcrack-kali-master.zip"
 ;; 
 
 /29|29) rcracki-mt 
-clear 
-mkdir rcracki-mt 
-cd rcracki-mt/
-curl -O https://gitlab.com/kalilinux/packages/rcracki-mt/-/archive/kali/master/rcracki-mt-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "rcracki-mt" "https://gitlab.com/kalilinux/packages/rcracki-mt/-/archive/kali/master/rcracki-mt-kali-master.zip"
 ;; 
 
 /30|30) RSMangler
-clear 
-mkdir RSMangler
-cd RSMangler/
-curl -O https://gitlab.com/kalilinux/packages/rsmangler/-/archive/kali/master/rsmangler-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |P|a|s|s|w|o|r|d| |A|t|t|a|c|k|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Password
+download_ferramenta "RSMangler" "https://gitlab.com/kalilinux/packages/rsmangler/-/archive/kali/master/rsmangler-kali-master.zip"
 ;; 
 
 /31|31) SecLists
