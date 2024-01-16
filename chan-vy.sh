@@ -2049,68 +2049,23 @@ read -p  ">>>>>>>>>>>"  menu9
 case $menu9 in
 
 /1|1) CryptCat 
-clear 
-mkdir CryptCat
-cd CryptCat/
-curl -O https://gitlab.com/kalilinux/packages/cryptcat/-/archive/kali/master/cryptcat-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "CryptCat" "https://gitlab.com/kalilinux/packages/cryptcat/-/archive/kali/master/cryptcat-kali-master.zip"
 ;;
 
 /2|2) Cymothoa 
-clear 
-mkdir Cymothoa
-cd Cymothoa/
-curl -O https://gitlab.com/kalilinux/packages/cymothoa/-/archive/kali/master/cymothoa-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "Cymothoa" "https://gitlab.com/kalilinux/packages/cymothoa/-/archive/kali/master/cymothoa-kali-master.zip"
 ;;
 
 /3|3) dbd 
-clear 
-mkdir dbd
-cd dbd/
-curl -O https://gitlab.com/kalilinux/packages/dbd/-/archive/kali/master/dbd-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "dbd" "https://gitlab.com/kalilinux/packages/dbd/-/archive/kali/master/dbd-kali-master.zip"
 ;;
 
 /4|4) dns2tcp 
-clear 
-mkdir dns2tcp
-cd dns2tcp/
-curl -O https://gitlab.com/kalilinux/packages/dns2tcp/-/archive/kali/master/dns2tcp-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "dns2tcp" "https://gitlab.com/kalilinux/packages/dns2tcp/-/archive/kali/master/dns2tcp-kali-master.zip"
 ;;
 
 /5|5) HTTPTunnel 
-clear 
-mkdir HTTPTunnel
-cd HTTPTunnel/
-curl -O https://gitlab.com/kalilinux/packages/httptunnel/-/archive/kali/master/httptunnel-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "HTTPTunnel" "https://gitlab.com/kalilinux/packages/httptunnel/-/archive/kali/master/httptunnel-kali-master.zip"
 ;;
 
 /6|6) Intersect 
