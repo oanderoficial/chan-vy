@@ -2069,94 +2069,32 @@ download_ferramenta "HTTPTunnel" "https://gitlab.com/kalilinux/packages/httptunn
 ;;
 
 /6|6) Intersect 
-clear 
-mkdir Intersect
-cd Intersect/
-curl -O https://gitlab.com/kalilinux/packages/intersect/-/archive/kali/master/intersect-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "Intersect" "https://gitlab.com/kalilinux/packages/intersect/-/archive/kali/master/intersect-kali-master.zip" 
 ;;
 
-/7|7) Nishang 
-clear 
-mkdir Nishang
-cd Nishang/
-curl -O https://gitlab.com/kalilinux/packages/nishang/-/archive/kali/master/nishang-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+/7|7) Nishang
+download_ferramenta "Nishang" "https://gitlab.com/kalilinux/packages/nishang/-/archive/kali/master/nishang-kali-master.zip" 
 ;;
 
 /8|8) polenum 
-clear 
-mkdir polenum
-cd polenum/
-curl -O https://gitlab.com/kalilinux/packages/polenum/-/archive/kali/master/polenum-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "polenum" "https://gitlab.com/kalilinux/packages/polenum/-/archive/kali/master/polenum-kali-master.zip"
+
 ;;
 
 /9|9) PowerSploit 
-clear 
-mkdir PowerSploit
-cd PowerSploit/
-curl -O https://gitlab.com/kalilinux/packages/powersploit/-/archive/kali/master/powersploit-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "PowerSploit" "https://gitlab.com/kalilinux/packages/powersploit/-/archive/kali/master/powersploit-kali-master.zip"
 ;;
 
 /10|10) pwnat 
-clear 
-mkdir pwnat
-cd pwnat/
-curl -O https://gitlab.com/kalilinux/packages/pwnat/-/archive/kali/master/pwnat-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "pwnat" "https://gitlab.com/kalilinux/packages/pwnat/-/archive/kali/master/pwnat-kali-master.zip"
 ;;
 
 /11|11) RidEnum 
-clear 
-mkdir RidEnum
-cd RidEnum/
-curl -O https://gitlab.com/kalilinux/packages/ridenum/-/archive/kali/master/ridenum-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "RidEnum" "https://gitlab.com/kalilinux/packages/ridenum/-/archive/kali/master/ridenum-kali-master.zip"
 ;;
 
 /12|12) sbd 
-clear 
-mkdir sbd
-cd sbd/
-curl -O https://gitlab.com/kalilinux/packages/sbd/-/archive/kali/master/sbd-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "sbd" "https://gitlab.com/kalilinux/packages/sbd/-/archive/kali/master/sbd-kali-master.zip"
 ;;
 
 /13|13) shellter 
