@@ -2098,68 +2098,23 @@ download_ferramenta "sbd" "https://gitlab.com/kalilinux/packages/sbd/-/archive/k
 ;;
 
 /13|13) shellter 
-clear 
-mkdir shellter
-cd shellter/
-curl -O https://gitlab.com/kalilinux/packages/shellter/-/archive/kali/master/shellter-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "shellter" "https://gitlab.com/kalilinux/packages/shellter/-/archive/kali/master/shellter-kali-master.zip"
 ;;
 
 /14|14) U3-Pwn 
-clear 
-mkdir U3-Pwn
-cd U3-Pwn/
-curl -O https://gitlab.com/kalilinux/packages/u3-pwn/-/archive/kali/master/u3-pwn-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "U3-Pwn" "https://gitlab.com/kalilinux/packages/u3-pwn/-/archive/kali/master/u3-pwn-kali-master.zip"
 ;;
 
 /15|15) Webshells 
-clear 
-mkdir Webshells
-cd Webshells/
-curl -O https://gitlab.com/kalilinux/packages/webshells/-/archive/kali/master/webshells-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "Webshells" "https://gitlab.com/kalilinux/packages/webshells/-/archive/kali/master/webshells-kali-master.zip"
 ;;
 
 /16|16) Weevely 
-clear 
-mkdir Weevely
-cd Weevely/
-curl -O https://gitlab.com/kalilinux/packages/weevely/-/archive/kali/master/weevely-kali-master.tar.gz
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "Weevely" "https://gitlab.com/kalilinux/packages/weevely/-/archive/kali/master/weevely-kali-master.tar.gz"
 ;;
 
 /17|17) Winexe 
-clear 
-mkdir Winexe
-cd Winexe/
-curl -O https://gitlab.com/kalilinux/packages/winexe/-/archive/kali/master/winexe-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |M|a|i|n|t|a|i|n|i|n|g| |A|c|c|e|s|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Maintaining
+download_ferramenta "Winexe" "https://gitlab.com/kalilinux/packages/winexe/-/archive/kali/master/winexe-kali-master.zip"
 ;;
 
 /menu|menu) 
