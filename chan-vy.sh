@@ -2183,81 +2183,27 @@ download_ferramenta "jad" "https://gitlab.com/kalilinux/packages/jad/-/archive/k
 ;;
 
 /6|6) javasnoop
-clear 
-mkdir javasnoop
-cd javasnoop/
-curl -O https://gitlab.com/kalilinux/packages/javasnoop/-/archive/kali/master/javasnoop-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "javasnoop" "https://gitlab.com/kalilinux/packages/javasnoop/-/archive/kali/master/javasnoop-kali-master.zip"
 ;;
 
 /7|7) JD-GUI
-clear 
-mkdir JD-GUI
-cd JD-GUI/
-curl -O https://gitlab.com/kalilinux/packages/jd-gui/-/archive/kali/master/jd-gui-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "JD-GUI" "https://gitlab.com/kalilinux/packages/jd-gui/-/archive/kali/master/jd-gui-kali-master.zip"
 ;;
 
 /8|8) OllyDbg
-clear 
-mkdir OllyDbg
-cd  OllyDbg/
-curl -O https://gitlab.com/kalilinux/packages/ollydbg/-/archive/kali/master/ollydbg-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "OllyDbg" "https://gitlab.com/kalilinux/packages/ollydbg/-/archive/kali/master/ollydbg-kali-master.zip"
 ;;
 
 /9|9) smali
-clear 
-mkdir smali
-cd  smali/
-curl -O https://gitlab.com/kalilinux/packages/smali/-/archive/kali/master/smali-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "smali" "https://gitlab.com/kalilinux/packages/smali/-/archive/kali/master/smali-kali-master.zip"
 ;;
 
 /10|10) Valgrind
-clear 
-mkdir Valgrind
-cd  Valgrind/
-curl -O https://gitlab.com/kalilinux/packages/valgrind/-/archive/kali/master/valgrind-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "Valgrind" "https://gitlab.com/kalilinux/packages/valgrind/-/archive/kali/master/valgrind-kali-master.zip"
 ;;
 
 /11|11) YARA
-clear 
-mkdir YARA
-cd  YARA/
-curl -O https://gitlab.com/kalilinux/packages/yara/-/archive/kali/master/yara-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "YARA" "https://gitlab.com/kalilinux/packages/yara/-/archive/kali/master/yara-kali-master.zip"
 ;;
 
 /menu|menu) 
