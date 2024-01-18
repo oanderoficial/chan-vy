@@ -2163,68 +2163,23 @@ read -p  ">>>>>>>>>>>"  menu10
 case $menu10 in
 
 /1|1) apktool
-clear 
-mkdir apktool
-cd apktool/
-curl -O https://gitlab.com/kalilinux/packages/apktool/-/archive/kali/master/apktool-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "apktool" "https://gitlab.com/kalilinux/packages/apktool/-/archive/kali/master/apktool-kali-master.zip"
 ;;
 
 /2|2) dex2jar
-clear 
-mkdir dex2jar
-cd dex2jar/
-curl -O https://gitlab.com/kalilinux/packages/dex2jar/-/archive/kali/master/dex2jar-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "dex2jar" "https://gitlab.com/kalilinux/packages/apktool/-/archive/kali/master/apktool-kali-master.zip"
 ;;
 
 /3|3) diStorm3
-clear 
-mkdir diStorm3
-cd diStorm3/
-curl -O https://gitlab.com/kalilinux/packages/distorm3/-/archive/kali/master/distorm3-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "diStorm3" "https://gitlab.com/kalilinux/packages/distorm3/-/archive/kali/master/distorm3-kali-master.zip"
 ;;
 
 /4|4) edb-debugger
-clear 
-mkdir edb-debugger
-cd edb-debugger/
-curl -O https://gitlab.com/kalilinux/packages/edb-debugger/-/archive/kali/master/edb-debugger-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "edb-debugger" "https://gitlab.com/kalilinux/packages/edb-debugger/-/archive/kali/master/edb-debugger-kali-master.zip"
 ;;
 
 /5|5) jad
-clear 
-mkdir jad
-cd jad/
-curl -O https://gitlab.com/kalilinux/packages/jad/-/archive/kali/master/jad-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|v|e|r|s|e| |E|n|g|i|n|e|e|r|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reverse
+download_ferramenta "jad" "https://gitlab.com/kalilinux/packages/jad/-/archive/kali/master/jad-kali-master.zip"
 ;;
 
 /6|6) javasnoop
