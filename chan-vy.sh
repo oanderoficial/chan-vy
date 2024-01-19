@@ -2247,82 +2247,28 @@ read -p  ">>>>>>>>>>>"  menu11
 case $menu11 in
 
 /1|1) android-sdk
-clear 
-mkdir android-sdk
-cd android-sdk/
-curl -O https://gitlab.com/kalilinux/packages/android-sdk/-/archive/kali/master/android-sdk-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |H|a|r|d|w|a|r|e| |H|a|c|k|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Hardware
+download_ferramenta "android-sdk" "https://gitlab.com/kalilinux/packages/android-sdk/-/archive/kali/master/android-sdk-kali-master.zip"
 ;;
 
 /2|2) apktool
-clear 
-mkdir apktool
-cd apktool/
-curl -O https://gitlab.com/kalilinux/kalilinux/packages/apktool/-/archive/kali/master/apktool-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |H|a|r|d|w|a|r|e| |H|a|c|k|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Hardware
+download_ferramenta "apktool" "https://gitlab.com/kalilinux/kalilinux/packages/apktool/-/archive/kali/master/apktool-kali-master.zip"
 ;;
 
 /3|3) Arduino
-clear 
-mkdir Arduino
-cd Arduino/
-curl -O https://gitlab.com/kalilinux/packages/arduino/-/archive/kali/master/arduino-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |H|a|r|d|w|a|r|e| |H|a|c|k|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Hardware
+download_ferramenta "Arduino" "https://gitlab.com/kalilinux/packages/arduino/-/archive/kali/master/arduino-kali-master.zip"
 ;;
 
 /4|4) dex2jar
-clear 
-mkdir dex2jar
-cd dex2jar/
-curl -O https://gitlab.com/kalilinux/packages/dex2jar/-/archive/kali/master/dex2jar-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |H|a|r|d|w|a|r|e| |H|a|c|k|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Hardware
+download_ferramenta "dex2jar" "https://gitlab.com/kalilinux/packages/dex2jar/-/archive/kali/master/dex2jar-kali-master.zip"
 ;;
 
 /5|5) Sakis3G
-clear 
-mkdir Sakis3G
-cd Sakis3G/
-curl -O https://gitlab.com/kalilinux/packages/sakis3g/-/archive/kali/master/sakis3g-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |H|a|r|d|w|a|r|e| |H|a|c|k|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Hardware
+download_ferramenta "Sakis3G" "https://gitlab.com/kalilinux/packages/sakis3g/-/archive/kali/master/sakis3g-kali-master.zip"
 ;;
 
 
 /6|6) smali
-clear 
-mkdir smali
-cd smali/
-curl -O https://gitlab.com/kalilinux/packages/smali/-/archive/kali/master/smali-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |H|a|r|d|w|a|r|e| |H|a|c|k|i|n|g|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Hardware
+download_ferramenta "smali" "https://gitlab.com/kalilinux/packages/smali/-/archive/kali/master/smali-kali-master.zip"
 ;;
 
 /menu|menu) 
