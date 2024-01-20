@@ -2316,68 +2316,23 @@ read -p  ">>>>>>>>>>>"  menu12
 case $menu12 in
 
 /1|1) CaseFile
-clear 
-mkdir CaseFile
-cd CaseFile/
-curl -O https://gitlab.com/kalilinux/packages/casefile/-/archive/kali/master/casefile-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+download_ferramenta "CaseFile" "https://gitlab.com/kalilinux/packages/casefile/-/archive/kali/master/casefile-kali-master.zip"
 ;;
 
 /2|2) cherrytree 
-clear 
-mkdir cherrytree
-cd cherrytree/
-curl -O https://gitlab.com/kalilinux/packages/cherrytree/-/archive/kali/master/cherrytree-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+download_ferramenta "cherrytree" "https://gitlab.com/kalilinux/packages/cherrytree/-/archive/kali/master/cherrytree-kali-master.zip"
 ;;
 
 /3|3) CutyCapt 
-clear 
-mkdir CutyCapt
-cd CutyCapt/
-curl -O https://gitlab.com/kalilinux/packages/cutycapt/-/archive/kali/master/cutycapt-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+download_ferramenta "CutyCapt" "https://gitlab.com/kalilinux/packages/cutycapt/-/archive/kali/master/cutycapt-kali-master.zip"
 ;;
 
 /4|4) dos2unix 
-clear 
-mkdir dos2unix
-cd dos2unix/
-curl -O https://gitlab.com/kalilinux/packages/dos2unix/-/archive/kali/master/dos2unix-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+download_ferramenta "dos2unix" "https://gitlab.com/kalilinux/packages/dos2unix/-/archive/kali/master/dos2unix-kali-master.zip"
 ;;
 
 /5|5) Dradis 
-clear 
-mkdir Dradis
-cd Dradis/
-curl -O https://gitlab.com/kalilinux/packages/dradis/-/archive/kali/master/dradis-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+download_ferramenta "Dradis" "https://gitlab.com/kalilinux/packages/dradis/-/archive/kali/master/dradis-kali-master.zip"
 ;;
 
 /6|6) MagicTree 
