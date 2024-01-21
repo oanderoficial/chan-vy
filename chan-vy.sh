@@ -2335,69 +2335,24 @@ download_ferramenta "dos2unix" "https://gitlab.com/kalilinux/packages/dos2unix/-
 download_ferramenta "Dradis" "https://gitlab.com/kalilinux/packages/dradis/-/archive/kali/master/dradis-kali-master.zip"
 ;;
 
-/6|6) MagicTree 
-clear 
-mkdir MagicTree
-cd MagicTree/
-curl -O https://github.com/braintripping/magic-tree/archive/master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+/6|6) MagicTree
+download_ferramenta "MagicTree" "https://github.com/braintripping/magic-tree/archive/master.zip" 
 ;;
 
 /7|7) Metagoofil 
-clear 
-mkdir Metagoofil
-cd Metagoofil/
-curl -O https://gitlab.com/kalilinux/packages/metagoofil/-/archive/kali/master/metagoofil-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+download_ferramenta "Metagoofil" "https://gitlab.com/kalilinux/packages/metagoofil/-/archive/kali/master/metagoofil-kali-master.zip" 
 ;;
 
 /8|8) Nipper-ng 
-clear 
-mkdir Nipper-ng
-cd Nipper-ng/
-curl -O https://gitlab.com/kalilinux/packages/nipper-ng/-/archive/kali/master/nipper-ng-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+download_ferramenta "Nipper-ng" "https://gitlab.com/kalilinux/packages/nipper-ng/-/archive/kali/master/nipper-ng-kali-master.zip"
 ;;
 
 /9|9) pipal
-clear 
-mkdir pipal
-cd pipal/
-curl -O https://gitlab.com/kalilinux/packages/pipal/-/archive/kali/master/pipal-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+download_ferramenta "pipal" "https://gitlab.com/kalilinux/packages/pipal/-/archive/kali/master/pipal-kali-master.zip"
 ;;
 
 /10|10) RDPY
-clear 
-mkdir RDPY
-cd RDPY/
-curl -O https://gitlab.com/kalilinux/packages/python-rdpy/-/archive/kali/master/python-rdpy-kali-master.zip
-clear 
-cd ..
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e "$red""   |R|e|p|o|r|t|i|n|g| |T|o|o|l|s|"
-echo -e "$lightgreen""+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ "
-echo -e $ [!] $yellow'Confira a Ferramenta no Diretório' $lightgreen "/chan-vy" &&sleep 2 &&Reporting
+download_ferramenta "RDPY" "https://gitlab.com/kalilinux/packages/python-rdpy/-/archive/kali/master/python-rdpy-kali-master.zip"
 ;;
 
 /menu|menu) 
