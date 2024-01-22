@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #Acesso ROOT.
 
+source help.sh
+
 [ $UID -ne '0' ] && { echo "Necessário ter Acesso ROOT."; exit 1 ;}
 
 export LANG=pt_BR.UTF-8
@@ -64,7 +66,6 @@ fi
 }
 
 
-
 #tela primária
 menu()
 
@@ -124,6 +125,8 @@ reve|/reve) Reverse ;;
 hard|/hard) Hardware ;;
 repo|/repo) Reporting ;;
 exit|/exit) sair;;
+help|/help) help;;
+
 *) echo -e $yellow'opicão invalida, tente novamente!'&&sleep 2&&menu;;
 esac
 }
@@ -479,6 +482,10 @@ download_ferramenta "WOL-E" "https://gitlab.com/kalilinux/packages/wol-e/-/archi
 download_ferramenta "Xplico" "https://gitlab.com/kalilinux/packages/xplico/-/archive/kali/master/xplico-kali-master.zip"
 ;;
 
+/help|help)
+exibir_ajuda
+;;
+
 /menu|menu) 
 clear 
 sleep 0.5&&menu 
@@ -646,7 +653,11 @@ download_ferramenta "unix-privesc-check" "https://gitlab.com/kalilinux/packages/
 /27|27) Yersinia  
 download_ferramenta "Yersinia" "https://gitlab.com/kalilinux/packages/yersinia/-/archive/kali/master/yersinia-kali-master.zip"
 ;;       
-  
+
+/help|help)
+exibir_ajuda
+;;
+
 /menu|menu) 
 clear 
 sleep 0.5&&menu 
@@ -940,6 +951,9 @@ download_ferramenta "Wifite" "https://gitlab.com/kalilinux/packages/wifite/-/arc
 download_ferramenta "wpaclean" "https://gitlab.com/kalilinux/packages/aircrack-ng/-/archive/kali/master/aircrack-ng-kali-master.zip"
 ;;
 
+/help|help)
+exibir_ajuda
+;;
 
 /menu|menu) 
     clear 
@@ -1188,6 +1202,10 @@ download_ferramenta "XSSer" "https://gitlab.com/kalilinux/packages/xsser/-/archi
 download_ferramenta "zaproxy" "https://gitlab.com/kalilinux/packages/zaproxy/-/archive/kali/master/zaproxy-kali-master.zip" 
 ;;
 
+/help|help)
+exibir_ajuda
+;;
+
 /menu|menu) 
     clear 
     sleep 0.5&&menu 
@@ -1327,6 +1345,10 @@ download_ferramenta "THC-IPV6" "https://gitlab.com/kalilinux/packages/thc-ipv6/-
 download_ferramenta "Yersinia" "https://gitlab.com/kalilinux/packages/yersinia/-/archive/kali/master/yersinia-kali-master.zip"
 ;;
 
+/help|help)
+exibir_ajuda
+;;
+
 /menu|menu) 
     clear 
     sleep 0.5&&menu 
@@ -1427,6 +1449,10 @@ download_ferramenta "THC-IPV6" "https://gitlab.com/kalilinux/packages/thc-ipv6/-
 
 /14|14) THC-SSL-DOS
 download_ferramenta "THC-SSL-DOS" "https://gitlab.com/kalilinux/packages/thc-ssl-dos/-/archive/kali/master/thc-ssl-dos-kali-master.zip"
+;;
+
+/help|help)
+exibir_ajuda
 ;;
 
 /menu|menu) 
@@ -1574,6 +1600,10 @@ download_ferramenta "Volatility" "https://gitlab.com/kalilinux/packages/volatili
 
 /23|23) Xplico
 download_ferramenta "Xplico" "https://gitlab.com/kalilinux/packages/xplico/-/archive/kali/master/xplico-kali-master.zip"
+;;
+
+/help|help)
+exibir_ajuda
 ;;
 
 /menu|menu) 
@@ -1771,6 +1801,10 @@ download_ferramenta "Yersinia" "https://gitlab.com/kalilinux/packages/yersinia/-
 
 /33|33) zaproxy
 download_ferramenta "zaproxy" "https://gitlab.com/kalilinux/packages/zaproxy/-/archive/kali/master/zaproxy-kali-master.zip"
+;;
+
+/help|help)
+exibir_ajuda
 ;;
 
 /menu|menu) 
@@ -1997,6 +2031,10 @@ download_ferramenta "wordlists" "https://gitlab.com/kalilinux/packages/wordlists
 download_ferramenta "zaproxy" "https://gitlab.com/kalilinux/packages/zaproxy/-/archive/kali/master/zaproxy-kali-master.zip"
 ;; 
 
+/help|help)
+exibir_ajuda
+;;
+
 /menu|menu) 
     clear 
     sleep 0.5&&menu 
@@ -2117,6 +2155,10 @@ download_ferramenta "Weevely" "https://gitlab.com/kalilinux/packages/weevely/-/a
 download_ferramenta "Winexe" "https://gitlab.com/kalilinux/packages/winexe/-/archive/kali/master/winexe-kali-master.zip"
 ;;
 
+/help|help)
+exibir_ajuda
+;;
+
 /menu|menu) 
     clear 
     sleep 0.5&&menu 
@@ -2206,6 +2248,10 @@ download_ferramenta "Valgrind" "https://gitlab.com/kalilinux/packages/valgrind/-
 download_ferramenta "YARA" "https://gitlab.com/kalilinux/packages/yara/-/archive/kali/master/yara-kali-master.zip"
 ;;
 
+/help|help)
+exibir_ajuda
+;;
+
 /menu|menu) 
     clear 
     sleep 0.5&&menu 
@@ -2269,6 +2315,10 @@ download_ferramenta "Sakis3G" "https://gitlab.com/kalilinux/packages/sakis3g/-/a
 
 /6|6) smali
 download_ferramenta "smali" "https://gitlab.com/kalilinux/packages/smali/-/archive/kali/master/smali-kali-master.zip"
+;;
+
+/help|help)
+exibir_ajuda
 ;;
 
 /menu|menu) 
@@ -2353,6 +2403,10 @@ download_ferramenta "pipal" "https://gitlab.com/kalilinux/packages/pipal/-/archi
 
 /10|10) RDPY
 download_ferramenta "RDPY" "https://gitlab.com/kalilinux/packages/python-rdpy/-/archive/kali/master/python-rdpy-kali-master.zip"
+;;
+
+/help|help)
+exibir_ajuda
 ;;
 
 /menu|menu) 
