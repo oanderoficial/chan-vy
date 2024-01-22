@@ -88,7 +88,7 @@ echo -e  "$red Tools: $white ⚛  +300 $yellow||$red By @oandersonbsilva $yellow
 
 
 
-echo -e "\t\t\t $yellow Chan-vy v1.0\n"
+echo -e "\t\t\t $yellow Chan-vy v1.1\n"
 echo -e "\t$red[/info]$yellow[[$white Information Gathering  $yellow]] $white: "
 echo -e "\t$red[/vul ]$yellow[[$white Vulnerability Analysis $yellow]] $white: "
 echo -e "\t$red[/wire]$yellow[[$white    Wireless Attacks    $yellow]] $white: "
