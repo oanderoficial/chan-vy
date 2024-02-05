@@ -1,0 +1,22 @@
+name: Chan-vy Tools Pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  name: Installing Packages
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: chan-vy_modules
+        key: ${{ runner.os }}-${{ hashFiles('**/apt.lock')}}
+
+    - name: Install dependencies
+      run: sudo apt-get install curl git zenity
