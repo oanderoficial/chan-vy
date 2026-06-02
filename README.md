@@ -1,5 +1,5 @@
 # chan-vy
-[![Versão](https://img.shields.io/badge/vers%C3%A3o-1.3-sucecess.svg)](https://github.com/oandersonbsilva/chan-vy/blob/main/chan-vy.sh)
+[![Versão](https://img.shields.io/badge/vers%C3%A3o-2.0-sucecess.svg)](https://github.com/oandersonbsilva/chan-vy/blob/main/chan-vy.sh)
 [![Plataformas](https://img.shields.io/badge/Plataformas-Linux%20x64%20%7C%20Linux%20x86-inactive.svg)](https://github.com/oandersonbsilva/chan-vy)
 [![Catálogo:](https://img.shields.io/badge/Catálogo%3A-automatizado-blue.svg)](https://github.com/oandersonbsilva/chan-vy/blob/main/chan-vy.sh)
 [![license](https://img.shields.io/badge/license-MIT-sucess.svg)](https://github.com/oandersonbsilva/chan-vy/blob/main/LICENSE)
