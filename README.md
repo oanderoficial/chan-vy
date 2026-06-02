@@ -83,3 +83,4 @@ CHANVY_TOOLS_DIR=/opt/chan-vy/tools ./chan-vy.sh --download sqlmap
 ```
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2da1cf5-87b9-42d6-aa0b-0dbc621315f8" />
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/475cd5c1-307f-4fc4-86a6-1bf8a2bc2201" />
