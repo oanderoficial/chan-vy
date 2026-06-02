@@ -1,15 +1,14 @@
 # chan-vy
-[![Versão](https://img.shields.io/badge/vers%C3%A3o-1.2-sucecess.svg)](https://github.com/oandersonbsilva/chan-vy/blob/main/chan-vy.sh)
+[![Versão](https://img.shields.io/badge/vers%C3%A3o-1.3-sucecess.svg)](https://github.com/oandersonbsilva/chan-vy/blob/main/chan-vy.sh)
 [![Plataformas](https://img.shields.io/badge/Plataformas-Linux%20x64%20%7C%20Linux%20x86-inactive.svg)](https://github.com/oandersonbsilva/chan-vy)
-[![Tools:](https://img.shields.io/badge/Tools%3A-+300-blue.svg)](https://github.com/oandersonbsilva/chan-vy/blob/main/chan-vy.sh)
+[![Catálogo:](https://img.shields.io/badge/Catálogo%3A-automatizado-blue.svg)](https://github.com/oandersonbsilva/chan-vy/blob/main/chan-vy.sh)
 [![license](https://img.shields.io/badge/license-MIT-sucess.svg)](https://github.com/oandersonbsilva/chan-vy/blob/main/LICENSE)
 
 <img src="https://raw.githubusercontent.com/oandersonbsilva/chan-vy/main/pictures/banner.png">
 
-Chan-vy é um script que baixa o código-fonte de todas as ferramentas disponíveis no Kali Linux, direto dos seus repositórios oficiais e de repositórios confiáveis. Utilizando o Curl e o Git para a realização dos downloads.
+Chan-vy é um script para buscar, baixar e instalar ferramentas de segurança em diferentes distribuições Linux. O catálogo de ferramentas é gerado automaticamente a partir dos metapacotes oficiais do Kali Linux, evitando a necessidade de manter centenas de repositórios manualmente dentro do script.
 
-Atualmente no Chan-vy estão disponíveis mais de 300 ferramentas, todas separadas por categoria. 
-Fácil e simples a utilização, onde basta escolher a categoria e o número da ferramenta que deseja baixar.
+O uso continua simples: basta executar o script, escolher uma categoria e selecionar a ferramenta desejada. O Chan-vy tenta instalar pelo gerenciador de pacotes da distribuição quando possível e, caso não encontre o pacote, oferece o download do código-fonte/fallback via Git.
 
 <img src="https://raw.githubusercontent.com/oandersonbsilva/chan-vy/main/pictures/1.jpg">
 
@@ -17,9 +16,10 @@ Fácil e simples a utilização, onde basta escolher a categoria e o número da 
 
 <ol>
 <li><code>Sistema Operacional Linux</code></li>
-<li><code>Curl </code></li>
-<li><code>Git</code></li>
-<li><code>Zenity</code></li>
+<li><code>Bash</code></li>
+<li><code>Curl</code> para atualizar o catálogo automaticamente</li>
+<li><code>Git</code> para baixar repositórios fallback</li>
+<li>Um gerenciador de pacotes suportado: <code>apt</code>, <code>dnf</code>, <code>yum</code>, <code>pacman</code>, <code>zypper</code> ou <code>apk</code></li>
 </ol>
 
 # Instalação
@@ -30,6 +30,57 @@ Fácil e simples a utilização, onde basta escolher a categoria e o número da 
 <li><code>chmod a+x chan-vy.sh</code></li>
 <li><code> ./chan-vy.sh </code></li>
 </ol>
+
+# Uso
+
+Abrir o menu interativo:
+
+```bash
+./chan-vy.sh
+```
+
+Atualizar o catálogo a partir do Kali Linux:
+
+```bash
+./chan-vy.sh --update
+```
+
+Buscar uma ferramenta:
+
+```bash
+./chan-vy.sh --search sql
+```
+
+Instalar uma ferramenta diretamente:
+
+```bash
+./chan-vy.sh --install nmap
+```
+
+Baixar o código-fonte/fallback de uma ferramenta:
+
+```bash
+./chan-vy.sh --download sqlmap
+```
+
+Por padrão, o catálogo fica em:
+
+```bash
+~/.cache/chan-vy/tools.tsv
+```
+
+E os downloads fallback são salvos em:
+
+```bash
+./tools
+```
+
+É possível customizar esses caminhos:
+
+```bash
+CHANVY_CACHE_DIR=/tmp/chan-vy-cache ./chan-vy.sh --update
+CHANVY_TOOLS_DIR=/opt/chan-vy/tools ./chan-vy.sh --download sqlmap
+```
 
 <img src="https://raw.githubusercontent.com/oandersonbsilva/chan-vy/main/pictures/Captura.png">
 <img src="https://raw.githubusercontent.com/oandersonbsilva/chan-vy/main/pictures/Captura2.png">
