@@ -117,16 +117,12 @@ EOF
 }
 
 detect_distro() {
-  DISTRO_ID="unknown"
-  DISTRO_LIKE=""
   DISTRO_NAME="Linux"
 
   if [ -r /etc/os-release ]; then
     # /etc/os-release é projetado para ser carregado por shell.
     # shellcheck disable=SC1091
     . /etc/os-release
-    DISTRO_ID="${ID:-unknown}"
-    DISTRO_LIKE="${ID_LIKE:-}"
     DISTRO_NAME="${PRETTY_NAME:-${NAME:-Linux}}"
   fi
 }
@@ -528,9 +524,9 @@ download_fallback() {
 
 install_tool_from_row() {
   local row="$1"
-  local category_slug category_label tool package fallback_type fallback_url
+  local _category_slug category_label tool package fallback_type fallback_url
 
-  IFS=$'\t' read -r category_slug category_label tool package fallback_type fallback_url <<EOF
+  IFS=$'\t' read -r _category_slug category_label tool package fallback_type fallback_url <<EOF
 $row
 EOF
 

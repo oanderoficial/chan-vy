@@ -1,22 +1,63 @@
-name: Chan-vy Tools Pipeline
+name: Chan-vy CI
 
 on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
-  installing-packages:
+  validate-script:
+    name: Validate Chan-vy script
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      CHANVY_CACHE_DIR: /tmp/chan-vy-ci-cache
+      CHANVY_TOOLS_DIR: /tmp/chan-vy-ci-tools
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Cache node modules
-        uses: actions/cache@v2
-        with:
-          path: chan-vy_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/apt.lock')}}
+      - name: Install CI dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bash curl git shellcheck
 
-      - name: Install dependencies
-        run: sudo apt-get install curl git zenity
+      - name: Check Bash syntax
+        run: bash -n chan-vy.sh
+
+      - name: Run ShellCheck
+        run: shellcheck chan-vy.sh
+
+      - name: Show help
+        run: bash chan-vy.sh --help
+
+      - name: Update Kali-based tools catalog
+        run: bash chan-vy.sh --update
+
+      - name: Validate generated catalog
+        run: |
+          test -s "$CHANVY_CACHE_DIR/tools.tsv"
+          tool_count="$(grep -vc '^#' "$CHANVY_CACHE_DIR/tools.tsv")"
+          echo "Catalog entries: $tool_count"
+          test "$tool_count" -ge 100
+          grep -q $'\tWeb Applications\t' "$CHANVY_CACHE_DIR/tools.tsv"
+          grep -q $'\tInformation Gathering\t' "$CHANVY_CACHE_DIR/tools.tsv"
+          grep -q $'\tsqlmap\t' "$CHANVY_CACHE_DIR/tools.tsv"
+          grep -q $'\tnmap\t' "$CHANVY_CACHE_DIR/tools.tsv"
+
+      - name: Search smoke tests
+        run: |
+          bash chan-vy.sh --search sql | grep -q sqlmap
+          bash chan-vy.sh --search nmap | grep -q nmap
+
+      - name: Interactive menu smoke test
+        run: printf '/exit\n' | bash chan-vy.sh
