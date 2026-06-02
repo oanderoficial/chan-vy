@@ -82,5 +82,4 @@ CHANVY_CACHE_DIR=/tmp/chan-vy-cache ./chan-vy.sh --update
 CHANVY_TOOLS_DIR=/opt/chan-vy/tools ./chan-vy.sh --download sqlmap
 ```
 
-<img src="https://raw.githubusercontent.com/oandersonbsilva/chan-vy/main/pictures/Captura.png">
-<img src="https://raw.githubusercontent.com/oandersonbsilva/chan-vy/main/pictures/Captura2.png">
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2da1cf5-87b9-42d6-aa0b-0dbc621315f8" />
